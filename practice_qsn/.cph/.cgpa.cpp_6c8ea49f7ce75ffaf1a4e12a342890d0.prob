@@ -1,0 +1,1 @@
+{"name":"Local: cgpa","url":"c:\\Users\\HP\\Desktop\\Course of Apna college\\practice_qsn\\cgpa.cpp","tests":[{"id":1624548812770,"input":"7 8 9 7 5 8 9 7","output":"7.833\n5.838"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\HP\\Desktop\\Course of Apna college\\practice_qsn\\cgpa.cpp","group":"local","local":true}
