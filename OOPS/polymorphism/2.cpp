@@ -10,7 +10,7 @@ Complex(int r=0,int i=0){       //we have to initialise it for res class object(
     imag=i;
 }
 
-Complex operator + (Complex const &obj){    //definig the functionality of + operator
+Complex operator + (Complex const &obj){    //defining the functionality of + operator
     Complex res;
     res.real= real+ obj.real;   //res.real is 0 initially(due to line 8)   //real is of c1 and obj.real is of c2
     res.imag= imag+ obj.imag;   //res.imag is 0 initially(due to line 8)   //imag is of c1 and obj.imag is of c2

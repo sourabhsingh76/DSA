@@ -17,7 +17,7 @@ for(auto &marks_students_pr : m){
     for(auto &student : students){
         cout<<student<<" "<<-1*mrk<<endl;
     }
-        
+       
 }
    
 	return 0;

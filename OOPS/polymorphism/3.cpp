@@ -26,7 +26,7 @@ cout<<"this is the derived's class display fn"<<endl;
 };
 
 
-int main(){
+int main(){                            //doubt (revise pointers)
 base *baseptr;
 derived obj;
 baseptr= &obj;

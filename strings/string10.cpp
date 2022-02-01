@@ -4,9 +4,9 @@ using namespace std;
 
 int main(){
 string s1="abc";
-string s2="xyz";
+string s2="abcd";
+                                       
+cout<< s2.compare(s1) <<endl;          // 1 would be printed if strings are different  
 
-cout<< s2.compare(s1) <<endl;          //doubt
-
-  return 0 ;
+  return 0 ;                           // 0 would be printed if strings are same
 }

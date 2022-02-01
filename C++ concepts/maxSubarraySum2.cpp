@@ -1,5 +1,4 @@
 #include <bits/stdc++.h>
-#include <climits>
 using namespace std;
 
 int main(){
@@ -13,7 +12,7 @@ int currsum[n+1];                             //maximum subarray sum (method 2)
 currsum[0]=0;  
 
 for(int i=1;i<=n;i++){                        //time complexity of O(n^2 + n) [optimised approach]
-  currsum[i]=currsum[i-1]+arr[i-1];        
+  currsum[i]=currsum[i-1] + arr[i-1];        
 }
 int maxSum=INT_MIN;
 for(int i=1;i<=n;i++){

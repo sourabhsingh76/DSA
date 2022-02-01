@@ -10,7 +10,7 @@ cout<<endl;
 vector<pair<int,int>> v_p = {{1,3},{5,3},{7,55}};        
 vector<pair<int,int>> :: iterator it;             
 for(it=v_p.begin();it!=v_p.end();++it){
-  cout<<(it->first)<<" "<<(it->second)<<endl;    //when the iterator is pointing to a pair then we can use his syntax  
+  cout<<(it->first)<<" "<<(it->second)<<endl;    //when the iterator is pointing to a pair then we can use this syntax  
 }                    
 return 0;
 }

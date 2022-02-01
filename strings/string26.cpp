@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-string s="asdsfsssfd";          //max no. of same char in a string
+string s="asdsfsssfd";          //max no. of same char in a string    //1st method
 int arr[26];
 for(int i=0;i<26;i++){          //V V imp
  arr[i]=0;

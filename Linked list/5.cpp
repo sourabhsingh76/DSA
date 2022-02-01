@@ -68,7 +68,7 @@ void deleteAtHead(node* &head){
     if(head==NULL){
         return;
     }
-    node* temp= head;
+    node* temp= head;     //imp
     head=head->next;
     delete temp;
     return;

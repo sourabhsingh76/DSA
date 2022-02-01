@@ -18,7 +18,7 @@ cout<<name<<endl;
 };                     //remember the semicolon here
 
 int main(){
-student a("Sourabh");   //jab bhi humne koi student class ka object banate hai aur hme usi me uski values specify kr di to hum uss case me use krte hai costructors
+student a("Sourabh");   //jab bhi hum koi student class ka object banate hai aur hme usi me uski values specify kr dete hai to hum uss case me use krte hai costructors
 a.getName();
  
     return 0;

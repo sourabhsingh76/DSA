@@ -11,4 +11,10 @@ cout<<"*";
         cout<<endl;
     }
     return 0;
-}
+}                       WR#
+           
+
+
+
+
+     

@@ -4,7 +4,7 @@ using namespace std;
 int main(){
 int a[]={1,2,3};
 int b[]={5,6,7};
-pair<int,int> p_array[3];
+pair<int,int> p_array[3];     //array of pair
 p_array[0]={1,5};
 p_array[1]={2,6};
 p_array[2]={3,7};
